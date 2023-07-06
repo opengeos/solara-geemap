@@ -1,13 +1,12 @@
 ---
-title: Solara Template
+title: Solara Geemap
 emoji: 🏃
 colorFrom: blue
-colorTo: green
+colorTo: purple
 sdk: docker
 pinned: false
 license: mit
 app_port: 8765
-duplicated_from: giswqs/solara-template
 ---
 
 Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
