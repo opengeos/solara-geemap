@@ -55,3 +55,4 @@ app_port: 8765
    ![](https://i.imgur.com/KX82lSf.png)
 
 4. Add your own apps (\*.py) to the `pages` folder.
+5. Commit and push your changes to the repository. Wait for the space to be built successfully.
