@@ -41,7 +41,7 @@ class Map(geemap.Map):
 
         # Add the NLCD legend to the map.
         self.add_legend(
-            title='NLCD Land Cover Type', builtin_legend='NLCD', height="460px"
+            title='NLCD Land Cover Type', builtin_legend='NLCD', height="460px", add_header=False
         )
 
 
