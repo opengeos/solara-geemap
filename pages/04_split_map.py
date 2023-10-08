@@ -51,5 +51,5 @@ def Page():
         Map.element(
             center=[40, -100],
             zoom=4,
-            height="800px",
+            height="600px",
         )
