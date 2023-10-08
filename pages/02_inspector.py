@@ -8,8 +8,8 @@ class Map(geemap.Map):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
         self.add_ee_data()
-        self.add_layer_manager()
-        self.add_inspector()
+        self.add("layer_manager")
+        self.add("inspector")
 
     def add_ee_data(self):
         # Add Earth Engine dataset
