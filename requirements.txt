@@ -1,4 +1,4 @@
 geemap
-solara
 geopandas
-pydantic< 2.0 
+pydantic< 2.0
+solara

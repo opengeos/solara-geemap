@@ -6,7 +6,7 @@ def Page():
     with solara.Column(align="center"):
         markdown = """
         ## Earth Engine Web Apps
-        
+
         ### Introduction
 
         **A collection of Earth Engine web apps developed using [Solara](https://github.com/widgetti/solara) and geemap**
@@ -15,7 +15,7 @@ def Page():
         - GitHub: <https://github.com/opengeos/solara-geemap>
         - Hugging Face: <https://huggingface.co/spaces/giswqs/solara-geemap>
 
-        
+
         ### How to deploy this app on Hugging Face Spaces
 
         1. Go to <https://huggingface.co/spaces/giswqs/solara-geemap/tree/main> and duplicate the space to your own space.

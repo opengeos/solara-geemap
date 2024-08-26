@@ -1,0 +1,33 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.6.0
+    hooks:
+      - id: check-toml
+      - id: check-yaml
+      - id: end-of-file-fixer
+        types: [python]
+      - id: trailing-whitespace
+      - id: requirements-txt-fixer
+      - id: check-added-large-files
+        args: ["--maxkb=500"]
+
+  - repo: https://github.com/psf/black
+    rev: 24.8.0
+    hooks:
+      - id: black-jupyter
+        language_version: python3
+
+  - repo: https://github.com/codespell-project/codespell
+    rev: v2.3.0
+    hooks:
+      - id: codespell
+        args:
+          [
+            "--ignore-words-list=gis,timeseries,sav,slowy",
+            "--skip=*.json,*.csv",
+          ]
+
+  - repo: https://github.com/kynan/nbstripout
+    rev: 0.7.1
+    hooks:
+      - id: nbstripout
