@@ -1,4 +1,4 @@
-geemap
+geemap>=0.36.6
 geopandas
-pydantic< 2.0
+pydantic
 solara
